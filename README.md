@@ -42,6 +42,13 @@ Create env:
 python3 -m venv env
 ```
 
+Apply virtual environment:
+
+```bash
+source env/bin/activate
+```
+
+
 Fill in the environment variables `.env` according to the template from the file `.env-example`
 Or user command:
 
