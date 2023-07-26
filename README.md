@@ -60,3 +60,11 @@ Run application:
 ```bash
 python3 run app.py
 ```
+
+Make request
+
+```bash
+curl -l localhost:5000/api/country?code=afg
+```
+
+**Note**: `code` parameter accepts the code name of the target country. e.g **afg**
