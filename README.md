@@ -1,6 +1,5 @@
 # Rest Countries
 
----
 
 External dependencies:
 
@@ -30,15 +29,10 @@ More information can be found at the link: https://redis.io/
 
 ### Setup env
 
-Install python dependencies:
-
-```bash
-pip3 install -r requirements.txt
-```
-
 Create env:
 
 ```bash
+pip3 install virtualenv
 python3 -m venv env
 ```
 
@@ -48,6 +42,11 @@ Apply virtual environment:
 source env/bin/activate
 ```
 
+Install python dependencies:
+
+```bash
+pip3 install -r requirements.txt
+```
 
 Fill in the environment variables `.env` according to the template from the file `.env-example`
 Or user command:
